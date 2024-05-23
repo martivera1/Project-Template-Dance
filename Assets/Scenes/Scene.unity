@@ -4579,6 +4579,7 @@ GameObject:
   - component: {fileID: 1440896349}
   - component: {fileID: 1440896348}
   - component: {fileID: 1440896352}
+  - component: {fileID: 1440896353}
   m_Layer: 0
   m_Name: Player1
   m_TagString: Player
@@ -4676,6 +4677,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   q: {x: 0, y: 0, z: 0, w: 0}
   manual: 0
+--- !u!114 &1440896353
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1440896347}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edc92424b55797d41a088a9a77b8cd23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1448092806
 GameObject:
   m_ObjectHideFlags: 0
@@ -7514,8 +7527,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myPrefab: {fileID: 4131812904386865606, guid: 1c9eb11f5be17ce44830145dc610b377, type: 3}
-  spawnPosition: {x: 75, y: -1, z: 25}
+  spawnPosition: {x: 4, y: 5, z: 25}
   spawnRotation: {x: 100, y: 0, z: 0}
+  spawnPositions:
+  - {x: 75, y: 0, z: 25}
+  - {x: 80, y: 0, z: 25}
+  - {x: 90, y: 0, z: 25}
+  - {x: 120, y: 0, z: 25}
+  - {x: 150, y: 0, z: 25}
 --- !u!4 &2012259396
 Transform:
   m_ObjectHideFlags: 0
